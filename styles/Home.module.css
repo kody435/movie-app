@@ -133,7 +133,7 @@
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 900px) {
+@media screen and (min-width: 500px) and (max-width: 1000px) {
     .div3 {
         display: flex;
         flex-wrap: wrap;

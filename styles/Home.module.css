@@ -120,7 +120,7 @@
     
     .h2 {
         width: 100vw;
-        height: 1vh;
+        height: auto;
     }
     
     .para {

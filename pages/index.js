@@ -35,16 +35,7 @@ export default function Home({posts}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.div3}>
-        {posts.map((post) => (
-          <BlogCard
-            key={post.slug}
-            title={post.title}
-            slug={post.slug}
-            url={post.url}
-          />
-        ))}
-      </main>
+      
     </div>
   )
 }

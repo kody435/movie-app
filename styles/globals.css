@@ -1,0 +1,19 @@
+
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background:linear-gradient(135deg, #56669d, #fa9490);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x:hidden ;
+}

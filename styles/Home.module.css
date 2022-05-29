@@ -32,10 +32,11 @@
     align-items: center;
     align-content: center;
     color: #ffffff;
+    text-align: center;
 }
 
 .div1:hover{
-    transform: scale(1.04);
+    transform: scale(1.06);
     transition: all 0.3s ease-in-out;
     color: #ffffff;
 }
@@ -56,6 +57,7 @@
     margin: auto;
     justify-content: center;
     color: #ffffff;
+    text-align: center;
 }
 
 .iframe {
@@ -75,6 +77,7 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    overflow:hidden;
 }
 
 .h2 {
@@ -83,15 +86,14 @@
     width: 100vw;
     height: 12vh;
     margin-top: 2vh;
-    margin-bottom: 3vh;
     color: #ffffff;
     display: block;
     color: #ffffff;
-    overflow:hidden
+    overflow:hidden;
 }
 
 .para {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'arial';
     color: #ffffff;
     height: 100%;
     width: 100vw;
@@ -157,13 +159,11 @@
     .h2 {
         width: 100vw;
         height: 15vh;
-        color: #ffffff;
     }
 
     .para {
         font-size: 1.3em;
         margin-top: -5vh;
-        color: #ffffff;
     }
 
     .divi {

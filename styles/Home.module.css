@@ -33,6 +33,7 @@
     align-content: center;
     color: #ffffff;
     text-align: center;
+    flex:1 1 40vw;
 }
 
 .div1:hover{
@@ -50,6 +51,7 @@
 
 .div3 {
     display: flex;
+    flex-wrap:wrap;
     width: 100vw;
     height: 100vh;
     flex-direction: row;
@@ -113,14 +115,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .div3 {
-        flex-direction: row;
-    }
-
-    .div1 {
-        margin: 2vh;
-        width: 80vw;
-    }
 
     .divi {
         width: 100vw;
@@ -143,18 +137,6 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 1000px) {
-    .div3 {
-        display: flex;
-        flex-wrap: wrap;
-        color: #ffffff;
-        flex-direction:row;
-    }
-
-    .div1 {
-        margin: 2vh;
-        width: 60vw;
-        color: #ffffff;
-    }
 
     .h2 {
         width: 100vw;
@@ -178,16 +160,6 @@
 }
 
 @media screen and (min-width: 1000px) {
-    .div3 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .div1 {
-        margin: 1.5vh;
-        width: 30vw;
-    }
-
     .h2 {
         width: 100vw;
         height: 20vh;

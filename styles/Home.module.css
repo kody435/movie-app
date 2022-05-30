@@ -33,7 +33,7 @@
     align-content: center;
     color: #ffffff;
     text-align: center;
-    flex:1 1 40vw;
+    flex-wrap:wrap;
 }
 
 .div1:hover{
@@ -51,7 +51,6 @@
 
 .div3 {
     display: flex;
-    flex-wrap:wrap;
     width: 100vw;
     height: 100vh;
     flex-direction: row;
@@ -60,6 +59,7 @@
     justify-content: center;
     color: #ffffff;
     text-align: center;
+    flex:1 1 40vw;
 }
 
 .iframe {

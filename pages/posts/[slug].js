@@ -57,7 +57,9 @@ export default function BlogPost({ post }) {
         <div className={styles.divi}>
           <h1 className={styles.h2}>{post.title}</h1>
           <details className={styles.details}>
-            <summary className={styles.summary}>DESCRIPTION</summary>
+            <summary className={styles.summary}>
+              <abbr title="Click to open Description">DESCRIPTION</abbr>  
+            </summary>
             <p className={styles.para}>{post.desc}</p>
           </details>
         </div>
